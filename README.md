@@ -34,8 +34,8 @@
         vKA = Math.pow(vgB, va) % vp;
         vKB = Math.pow(vgA, vb) % vp;
 
-        vAusgabe = "Öffentlicher Schlüssel Alice:" + vgA;
-        vAusgabe = vAusgabe + "<br>" + "öffentlicher Schlüssel Bob:" + vgB;
+        vAusgabe = "Öffentlicher Schlüssel Alice: " + vgA;
+        vAusgabe = vAusgabe + "<br>" + "öffentlicher Schlüssel Bob: " + vgB;
         vAusgabe =
           vAusgabe + "<br>" + "<br>" + "----------------------------" + "<br>";
         vAusgabe = vAusgabe + "<br>" + "Generierter Schlüssel K Alice: " + vKB;
